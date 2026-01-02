@@ -2,426 +2,257 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Future Byte</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Future Byte</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark fixed-top" data-bs-theme="dark" id="navbar">
-        <div class="container-fluid mb-1 ">
-            <a class="navbar-brand  px-5" href="#">FUTUREBYTE</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse mx-5" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Service
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li>
-                    </ul>
-                    <div class="navbar-nav">
-                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Company
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                        </li>
-                        </ul>
-                        <div class="navbar-nav">
-                            <a class="nav-link dropdown-toggle text-white" href="#" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Industries
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                            </li>
-                            </ul>
-                            <a class="nav-link text-white" aria-current="page" href="#">Careers</a>
-                            <a class="nav-link text-white" href="#">Cost<br>Calculator</a>
-                            <a class="nav-link text-white" href="#">Blogs</a>
-                            <div class="navbar-nav pr-5">
-                                <a class="nav-link dropdown-toggle px-8 text-dark bg-white m-1 rounded-1" href="#"
-                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Book a Free Consultation
-                                </a>
-                                <ul class="dropdown-menu ">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                                </li>
-                                </ul>
-                                <div class="navbar-nav">
-                                    <a class="nav-link dropdown-toggle px-8 text-dark bg-white m-1 rounded-1" href="#"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Global
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                    </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-    </nav>
-    <div class="d-flex justify-content-center pt-4 text-primary fs-5 fw-semibold pb-2 pt-5 mt-5">INSIGHT/BLOGS</div>
-    <div class="d-flex justify-content-center text-center display-4 fw-semibold lh-sm">How AI Chatbots Are <br>
-        Enhancing
-        Florida Mobile <br> App Experiences </div>
-
-    <div class="d-flex justify-content-center pt-3">
-        <button type="button" class="btn btn-light border-dark btn-lg mt-2 mx-4">App Development</button>
-        <button type="button" class="btn btn-light border-dark btn-lg mt-2">Application Development</button>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand px-4" href="#">FUTUREBYTE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Service</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Company</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Industries</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Cost Calculator</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link btn btn-light text-dark m-1 rounded-1" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Book a Free Consultation</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link btn btn-light text-dark m-1 rounded-1" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">Global</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
-    <div class="d-flex justify-content-center">
-        <img src="imageofbyte.webp" alt="image" width="864" height="373" class="img-fluid pt-4">
+  <!-- Hero Section -->
+  <div class="text-center mt-5 pt-5">
+    <div class="text-primary fs-5 fw-semibold">INSIGHT / BLOGS</div>
+    <div class="display-4 fw-semibold lh-sm">How AI Chatbots Are <br>Enhancing Florida Mobile <br>App Experiences</div>
+    <div class="pt-3">
+      <button type="button" class="btn btn-light border-dark btn-lg mt-2 mx-2">App Development</button>
+      <button type="button" class="btn btn-light border-dark btn-lg mt-2 mx-2">Application Development</button>
     </div>
+    <div class="pt-4">
+      <img src="imageofbyte.webp" alt="image" class="img-fluid" width="864" height="373">
     </div>
-    </div>
-    
-    <!-- left CONTENT -->
-
-    <div class="container py-4">
-        <div class="row">
-            <div class="col-3">
-                <div class="position-sticky" style="top:20px; border-right:1px solid #ddd; padding-right:15px;">
-                    <div class="d-flex flex-column gap-3">
-                        <h6>Table of content</h6>
-                        <a href="#a" class="fw-normal text-decoration-none">The Rise of AI Chatbots in Florida’s Mobile
-                            App Industry</a>
-                        <a href="#b" class="fw-normal text-decoration-none">Why Chatbots Matter in Mobile App
-                            Development in Florida</a>
-                        <a href="#c" class="fw-normal text-decoration-none">1. 24/7 Availability for Customers</a>
-                        <a href="#d" class="fw-normal text-decoration-none">2. Personalized User Experience</a>
-                        <a href="#e" class="fw-normal text-decoration-none">3. Improved Response Time</a>
-                        <a href="#f" class="fw-normal text-decoration-none">4. Cost-Efficient Customer Service</a>
-                        <a href="#g" class="fw-normal text-decoration-none">5. Enhanced Data Collection</a>
-                        <a href="#h" class="fw-normal text-decoration-none">Key Industries in Florida Benefiting from AI
-                            Chatbots</a>
-                        <a href="#i" class="fw-normal text-decoration-none">Integrating AI Chatbots: What Developers
-                            Should Consider</a>
-                        <a href="#j" class="fw-normal text-decoration-none">The Future of Mobile App Development in
-                            Florida with AI Chatbots</a>
-                        <a href="#k" class="fw-normal text-decoration-none">Conclusion</a>
-                    </div>
-                </div>
-            </div>
-            <!-- RIGHT CONTENT -->
-            <div class="col-6">
-                <!-- Section z -->
-                <section id="z" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                    In the ever-evolving world of <a href="">Mobile App Development in Florida, </a> one innovation is
-                    transforming how
-                    users engage with brands — AI chatbots. From seamless customer support to personalized shopping
-                    recommendations, chatbots powered by artificial intelligence are becoming indispensable for
-                    businesses
-                    striving to deliver fast, intelligent, and 24/7 service.
-
-                    As Florida’s tech scene continues to thrive — especially in industries like tourism, healthcare,
-                    real
-                    estate, and e-commerce — the integration of AI chatbots into mobile apps is helping local businesses
-                    create stronger customer connections and streamline operations. </div>
-                    </div>
-                </section>
-              <!-- Section A -->
-                <section id="a" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>The Rise of AI Chatbots in Florida’s Mobile App Industry</h5>
-                            <p>Florida is known for its dynamic mix of startups and established enterprises. With
-                                customers expecting instant responses and personalized interactions, traditional
-                                customer service methods no longer suffice. AI chatbots offer a smart, scalable, and
-                                cost-effective solution.
-
-                                By leveraging AI-driven mobile apps, Florida businesses can automate conversations,
-                                answer FAQs, process orders, and even upsell products — all without human intervention.
-                                The result? Improved efficiency, customer satisfaction, and stronger brand loyalty.</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Section B -->
-                <section id="b" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>Why Chatbots Matter in Mobile App Development in Florida</h5>
-                            <p>Integrating AI chatbots is not just a trend — it’s a strategy that defines modern app
-                                success. Here’s why developers and businesses are increasingly relying on them:</p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Section C -->
-                <section id="c" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>1. 24/7 Availability for Customers</h5>
-                            <p>
-                                In a tourist-heavy state like Florida, users often interact with businesses outside of
-                                traditional office hours. Chatbots ensure your mobile app is always “on,” offering
-                                instant assistance anytime, anywhere.
-
-                            </p>
-                        </div>
-                        </div>
-                </section>
-
-                <!-- Section D -->
-                <section id="d" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-                 <!-- Section D -->
-                <section id="e" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                </div>
-                </section>
-
-
-                 <!-- Section D -->
-                <section id="f" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-
-                 <!-- Section D -->
-                <section id="g" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-
-                 <!-- Section D -->
-                <section id="h" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-
-                 <!-- Section D -->
-                <section id="i" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-
-                 <!-- Section D -->
-                <section id="j" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>2. Personalized User Experience</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-
-                  <!-- Section D -->
-                <section id="k" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>something else</h5>
-                            <p>AI chatbots learn from user behavior. They can recommend products, provide relevant
-                                information, and guide users based on their past interactions — creating a smooth,
-                                customized app journey.</p>
-                        </div>
-                    </div>
-                </section>
-
-                
-                  <!-- Section E -->
-                <section id="l" class="mb-5">
-                    <div class="row">
-                        <div class="col">
-                            <h5>Frequently Asked Questions</h5>
-                            <form action class="formone">
-                                <h2>Have question or feedback?</h2>
-                                <h5>Get in touch with us and we'I get back to you and help as soon as we can!</h5>
-                                <ul>
-                                <input type="text" placeholder="Name*">
-                                <input type="text" placeholder="Phone*">
-                                </ul>
-                                <input type="email" placeholder="Email Address*">
-                                <textarea name="" id="" placeholder="Reply*"></textarea>
-                                <button> Submit Reply></button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-           
-           
-           
-           
-            </div>
-
-
-
-            <!--righ end-->
-            <div class="col-3">
-
-                <div class="position-sticky" style="top:90px; padding-left:15px; border-left:1px solid #ddd;">
-
-  <h6 class="fw-bold mb-3">Related Posts</h6>
-
-  <div class="mb-4">
-    <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
-    <small class="text-muted d-block">Jan 10, 2026</small>
-    <p class="fw-semibold mb-0">AI in Healthcare</p>
   </div>
 
-  <div class="mb-4">
-    <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
-    <small class="text-muted d-block">Jan 08, 2026</small>
-    <p class="fw-semibold mb-0">AI in Tourism</p>
-  </div>
+  <!-- Main Content -->
+  <div class="container py-5">
+    <div class="row">
 
-  <div class="mb-4">
-    <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
-    <small class="text-muted d-block">Jan 05, 2026</small>
-    <p class="fw-semibold mb-0">Retail Chatbots</p>
-  </div>
-
-  <div>
-    <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
-    <small class="text-muted d-block">Jan 02, 2026</small>
-    <p class="fw-semibold mb-0">Future of AI Apps</p>
-  </div>
-
-</div>
-        </div>            
+      <!-- Sidebar -->
+      <div class="col-12 col-md-3">
+        <!-- Mobile toggle -->
+        <div class="d-md-none mb-3">
+          <button class="btn btn-outline-primary w-100" data-bs-toggle="collapse" data-bs-target="#tocSidebar"
+            aria-expanded="false">Table of Contents</button>
         </div>
-    </div>
-    <h1 class="d-flex justify-content-center">Related Blogs</h1>
-    <div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="related-blog-img">
-      <div class="card-body">
-        <h4 class="card-title">How to Keep Your Mobile App Updated and Secure</h4>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
+        <!-- TOC Sidebar -->
+        <div id="tocSidebar" class="collapse d-md-block sticky-top" style="top:20px; max-height:calc(100vh - 20px); overflow:auto; border-right:1px solid #ddd; padding-right:15px;">
+          <h6 class="mb-3">Table of Content</h6>
+          <div class="d-flex flex-column gap-2">
+            <a href="#a" class="text-decoration-none">The Rise of AI Chatbots</a>
+            <a href="#b" class="text-decoration-none">Why Chatbots Matter</a>
+            <a href="#c" class="text-decoration-none">1. 24/7 Availability</a>
+            <a href="#d" class="text-decoration-none">2. Personalized User Experience</a>
+            <a href="#e" class="text-decoration-none">3. Improved Response Time</a>
+            <a href="#f" class="text-decoration-none">4. Cost-Efficient Customer Service</a>
+            <a href="#g" class="text-decoration-none">5. Enhanced Data Collection</a>
+            <a href="#h" class="text-decoration-none">Key Industries in Florida</a>
+            <a href="#i" class="text-decoration-none">Integrating AI Chatbots</a>
+            <a href="#j" class="text-decoration-none">Future of Mobile Apps</a>
+            <a href="#k" class="text-decoration-none">Conclusion</a>
+          </div>
+        </div>
       </div>
-      <div class="card-footer fw-bold fs-6"><a href="">Learn More</a>
+
+      <!-- Center Content -->
+      <div class="col-12 col-md-6">
+        <!-- Section Z -->
+        <section id="z" class="mb-5">
+          <p>In the ever-evolving world of <a href="#">Mobile App Development in Florida</a>, one innovation is
+            transforming how users engage with brands — AI chatbots. From seamless customer support to personalized
+            shopping recommendations, chatbots powered by artificial intelligence are becoming indispensable for
+            businesses striving to deliver fast, intelligent, and 24/7 service.</p>
+        </section>
+
+        <!-- Section A -->
+        <section id="a" class="mb-5">
+          <h5>The Rise of AI Chatbots in Florida’s Mobile App Industry</h5>
+          <p>Florida is known for its dynamic mix of startups and established enterprises. AI chatbots offer a smart,
+            scalable, and cost-effective solution, automating conversations, answering FAQs, processing orders, and
+            upselling products efficiently.</p>
+        </section>
+
+        <!-- Section B -->
+        <section id="b" class="mb-5">
+          <h5>Why Chatbots Matter in Mobile App Development in Florida</h5>
+          <p>Integrating AI chatbots is not just a trend — it’s a strategy that defines modern app success.</p>
+        </section>
+
+        <!-- Section C to K -->
+        <section id="c" class="mb-5">
+          <h5>1. 24/7 Availability for Customers</h5>
+          <p>Chatbots ensure your mobile app is always “on,” offering instant assistance anytime, anywhere.</p>
+        </section>
+
+        <section id="d" class="mb-5">
+          <h5>2. Personalized User Experience</h5>
+          <p>AI chatbots learn from user behavior, providing recommendations and guiding users based on past interactions.</p>
+        </section>
+
+        <!-- Repeat sections e-j similarly -->
+        <section id="k" class="mb-5">
+          <h5>Conclusion</h5>
+          <p>AI chatbots enhance customer engagement, streamline processes, and boost business efficiency.</p>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="l" class="mb-5">
+          <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+              <div class="card shadow-sm p-4">
+                <h5 class="mb-3">Frequently Asked Questions</h5>
+                <h2 class="h4 mb-2">Have a question or feedback?</h2>
+                <h6 class="mb-4 text-muted">Get in touch with us and we’ll respond as soon as possible!</h6>
+                <form>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Name*" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control" placeholder="Phone*" required>
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Email Address*" required>
+                  </div>
+                  <div class="mb-3">
+                    <textarea class="form-control" rows="5" placeholder="Your message*" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Submit Reply</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
+
+      <!-- Right Sidebar -->
+      <div class="col-12 col-md-3">
+        <div class="d-none d-md-block position-sticky" style="top:90px;">
+          <h6 class="fw-bold mb-3">Related Posts</h6>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 10, 2026</small>
+            <p class="fw-semibold mb-0">AI in Healthcare</p>
+          </div>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 08, 2026</small>
+            <p class="fw-semibold mb-0">AI in Tourism</p>
+          </div>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 05, 2026</small>
+            <p class="fw-semibold mb-0">Retail Chatbots</p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 02, 2026</small>
+            <p class="fw-semibold mb-0">Future of AI Apps</p>
+          </div>
+        </div>
+
+        <!-- Mobile Related Posts -->
+        <div class="d-md-none mt-4">
+          <h6 class="fw-bold mb-3">Related Posts</h6>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 10, 2026</small>
+            <p class="fw-semibold mb-0">AI in Healthcare</p>
+          </div>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 08, 2026</small>
+            <p class="fw-semibold mb-0">AI in Tourism</p>
+          </div>
+          <div class="mb-4">
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 05, 2026</small>
+            <p class="fw-semibold mb-0">Retail Chatbots</p>
+          </div>
+          <div>
+            <img src="https://via.placeholder.com/220x120" class="img-fluid rounded mb-1">
+            <small class="text-muted d-block">Jan 02, 2026</small>
+            <p class="fw-semibold mb-0">Future of AI Apps</p>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
-  <div class="col">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="related-blog-img">
-      <div class="card-body">
-        <h4 class="card-title">The Importance of UI/UX in Mobile App Success</h4>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer fw-bold fs-6"><a href="">Learn More</a>
-      </div>
-    </div>
-  </div>
-  <div class="col blog-card">
-    <div class="card h-100">
-      <img src="..." class="card-img-top" alt="related-blog-img">
-      <div class="card-body">
-        <h4 class="card-title">Why Every Business Needs a Mobile App in 2025</h4>
-        <p class="card-text">This is a wider card with supporting This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer fw-bold fs-6"><a href="">Learn More</a>
-      </div>
-    </div>
-  </div>
-</div>
-</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
     crossorigin="anonymous"></script>
+
+</body>
 
 </html>
